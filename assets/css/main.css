@@ -219,7 +219,7 @@ textarea {
 }
 
 #nav li a:hover {
-	color: #003333;
+	color: #034e35;
 }
 
 
@@ -619,7 +619,7 @@ body#sent {
 	font-family: brandon_grotesquebold, Arial;
 	font-weight: lighter;
 	line-height: 1em;
-	color: #003333;
+	color: #034e35;
 	font-size: 66px;
 	margin: 0;
 	text-transform: uppercase;
@@ -629,7 +629,7 @@ body#sent {
 	font-family: brandon_grotesquemedium, Arial;
 	line-height: 1.2em;
 	font-size: 18px;
-	color: #003333;
+	color: #034e35;
 	font-size: 28px;
 	font-style: italic;
 }
@@ -805,7 +805,7 @@ button:hover {
 #wholesale-border {
 	border: 2px solid #00472F;
 	border-radius: 15px;
-	padding: 15px 50px 20px 50px;
+	padding: 15px 25px 20px 25px;
 }
 
 #wholesale-wrap header h2 {
@@ -827,7 +827,7 @@ button:hover {
 	font-family: brandon_grotesquemedium, Arial;
 	line-height: 1.2em;
 	font-size: 18px;
-	color: #003333;
+	color: #034e35;
 	margin: 0;
 }
 
@@ -843,18 +843,18 @@ button:hover {
 	font-size: 14px;
 	text-transform: uppercase;
 	color: #fff;
-	background: #003333;
+	background: #034e35;
 	border-radius: 5px;
 	display: inline-block;
 	padding: 5px 15px;
 }
 
 .wholesale-lines {
-	border-bottom: 2px solid #003333;
+	border-bottom: 2px solid #034e35;
 	font-family: brandon_grotesquemedium, Arial;
 	line-height: 1em;
 	font-size: 16px;
-	color: #003333;
+	color: #034e35;
 	margin: 0 0 10px 0;
 	text-transform: uppercase;
 	position: relative;
@@ -893,22 +893,22 @@ input.input-delivery {
 #wholesale-list th {
 	font-family: brandon_grotesquemedium, Arial;
 	line-height: 1em;
-	font-size: 18px;
-	color: #003333;
-	border-bottom: 2px solid #003333;
+	/* font-size: 18px; */
+	color: #034e35;
+	border-bottom: 2px solid #034e35;
 	text-transform: uppercase;
 }
 
 td.col3,
 td.col4 {
-	color: #003333 !important;
-	font-size: 18px !important;
+	color: #034e35 !important;
+	/* font-size: 18px !important; */
 	font-weight: bold !important;
 }
 
 #wholesale-list td {
 	font-family: Georgia, Arial;
-	font-size: 14px;
+	/* font-size: 14px; */
 	line-height: 1em;
 	color: #666;
 	border-bottom: 1px solid #666;
@@ -918,7 +918,7 @@ td.col4 {
 	width: 35px;
 	height: 25px;
 	font-family: Georgia, Arial;
-	font-size: 14px;
+	/* font-size: 14px; */
 	line-height: 1em;
 	color: #666;
 	text-align: center;
@@ -941,7 +941,7 @@ td.col4 {
 	border-radius: 10px;
 	font-family: brandon_grotesquemedium, Arial;
 	line-height: 1em;
-	font-size: 18px;
+	/* font-size: 18px; */
 	color: #fff;
 	padding: 20px 45px;
 	text-align: center;
@@ -1144,7 +1144,7 @@ td.col4 {
 	font-family: brandon_grotesquemedium, Arial;
 	font-size: 22px;
 	line-height: 1.5em;
-	color: #003333;
+	color: #034e35;
 	background: rgba(255, 255, 255, 0.8);
 	font-style: italic;
 	font-weight: lighter;
@@ -1224,7 +1224,7 @@ body#process {
 	text-transform: uppercase;
 	font: lighter 72px/1em brandon_grotesquebold, Arial;
 	text-align: center;
-	color: #003333;
+	color: #034e35;
 	margin: 75px 0 10px 0;
 }
 
@@ -1237,7 +1237,7 @@ body#process {
 #process-wrap h3 {
 	font-family: brandon_grotesquemedium, Arial;
 	font-style: italic;
-	color: #003333;
+	color: #034e35;
 	font-size: 20px;
 	text-align: center;
 	font-weight: lighter;
@@ -1329,9 +1329,9 @@ body#process {
 	text-transform: uppercase;
 	font-size: 60px;
 	font-family: brandon_grotesquebold, Arial;
-	color: #003333;
+	color: #034e35;
 	text-align: center;
-	border-top: 2px solid #003333;
+	border-top: 2px solid #034e35;
 	position: relative;
 	width: 820px;
 	height: 30px;
@@ -1429,7 +1429,7 @@ body#process {
 }
 
 .faq-item h4 a:hover {
-	color: #003333;
+	color: #034e35;
 }
 
 .faq-item p {
@@ -1491,9 +1491,9 @@ body#contact {
 	text-transform: uppercase;
 	font-size: 60px;
 	font-family: brandon_grotesquebold, Arial;
-	color: #003333;
+	color: #034e35;
 	text-align: center;
-	border-top: 2px solid #003333;
+	border-top: 2px solid #034e35;
 	position: relative;
 	width: 820px;
 	height: 30px;
@@ -1716,7 +1716,7 @@ body#contact {
 	text-align: center;
 	font-family: Georgia;
 	line-height: 1em;
-	color: #003333;
+	color: #034e35;
 	font-size: 11px;
 	height: 50px;
 	background: #fff;
@@ -1915,7 +1915,7 @@ splash-info a:hover {
 	font-family: brandon_grotesquebold, Arial;
 	font-weight: lighter;
 	line-height: 1em;
-	color: #003333;
+	color: #034e35;
 	text-transform: uppercase;
 	font-size: 32px;
 	margin: 40px 0 20px;
@@ -2005,7 +2005,7 @@ splash-info a:hover {
 	font-family: brandon_grotesquebold, Arial;
 	font-weight: lighter;
 	line-height: 1em;
-	color: #003333;
+	color: #034e35;
 	text-transform: uppercase;
 	font-size: 30px;
 	margin: 10px 0;
@@ -2187,7 +2187,7 @@ h1#seafood-title>span>span {
 	font-size: 24px;
 	font-weight: lighter;
 	text-align: center;
-	color: #003333;
+	color: #034e35;
 	width: 225px;
 }
 
@@ -2276,7 +2276,7 @@ img.retail-catch:hover {
 
 /* @group Media Queries */
 
-@media only screen and (min-width: 35em) {}
+/* @media only screen and (min-width: 35em) {} */
 
 @media print,
 (-o-min-device-pixel-ratio: 5/4),

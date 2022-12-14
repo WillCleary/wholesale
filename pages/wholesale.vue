@@ -1,7 +1,7 @@
 <script setup>
 import moment from 'moment';
 
-const { findOne } = useStrapi();
+const { findOne, find } = useStrapi();
 const {
     data:
     { attributes:
@@ -26,30 +26,42 @@ const {
     }
 });
 
-const reportDisplayDate = moment(report_date).format('MM/DD/YYYY, ddd')
+const reportDisplayDate = moment(report_date).format('dddd, MM/DD/YYYY')
 </script>
 
 <template>
-    <div class="place-items-center h-screen" id="wholesale">
+    <div class="grid place-items-center" id="wholesale">
         <div role="main" class="grid pb-36">
-            <div class="mx-8 max-w-[75%]" id="wholesale-wrap">
+            <div class="max-w-4xl" id="wholesale-wrap">
                 <div class="grid" id="wholesale-border">
-                    <header class="grid-cols-2">
-                        <div>
-                            <h2>Daily Fresh Fish Report</h2>
+                    <header class="grid grid-cols-1 place-items-center md:grid-cols-2">
+                        <div class="">
+                            <img src="~images/wholesale-logo.png" class="object-cover" alt="Daily Fresh Fish Report" />
                         </div>
 
-                        <div id="wholesale-header-right">
-                            <p class="wholesale-date">
-                                Date: {{ reportDisplayDate }}
-                                <br />
-                                Phone Orders: 503-286-5950
+                        <div class="place-items-center wholesale-header pt-4 md:justify-items-end">
+                            <p class="text-center">
+                            <p style="text-decoration:underline">
+                                Date
                             </p>
+                            {{ reportDisplayDate }}
                             <br />
-                            <p class='wholesale-date'>
+                            <br />
+                            <p style="text-decoration:underline">
+                                Contact
+                            </p>
+                            Phone: 503-286-5950
+                            <br />
+                            Email: Orders@Newmansfish.com
+                            </p>
+                        </div>
+                        <div v-if="header" class="place-items-center wholesale-header text-center">
+                            <p>
+                                Attention:
+                            </p>
+                            <p class='text-center'>
                                 {{ header }}
                             </p>
-
                         </div>
                     </header>
                     <br data-clear="all" />
@@ -61,5 +73,9 @@ const reportDisplayDate = moment(report_date).format('MM/DD/YYYY, ddd')
 </template>
 
 <style>
-
+.wholesale-header {
+    color: #00472F;
+    font-family: Georgia, Arial;
+    font-weight: bold;
+}
 </style>
