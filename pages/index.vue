@@ -4,6 +4,7 @@ definePageMeta({
 })
 </script>
 <template>
+
     <div class="container-fluid full-height-container">
         <div class="row full-height">
             <div class="logo-container">

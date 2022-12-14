@@ -1,10 +1,14 @@
-import { resolve } from 'path'
+import { resolve } from 'node:path';
+import rollupNodePolyFill from 'rollup-plugin-node-polyfills';
+
+
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
     alias:{
         'images': resolve(__dirname, './assets/img'),
         'css': resolve(__dirname, './assets/css'),
-        'font': resolve(__dirname, './assets/font')
+        'font': resolve(__dirname, './assets/font'),
+        'path': 'rollup-plugin-node-polyfills/polyfills/path'
     },
     css:[
         'assets/css/custom.css',
