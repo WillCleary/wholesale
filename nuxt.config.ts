@@ -1,30 +1,17 @@
-import { resolve } from 'node:path';
-import rollupNodePolyFill from 'rollup-plugin-node-polyfills';
-
+import { resolve } from 'path';
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
     alias:{
         'images': resolve(__dirname, './assets/img'),
         'css': resolve(__dirname, './assets/css'),
-        'font': resolve(__dirname, './assets/font'),
-        'path': 'rollup-plugin-node-polyfills/polyfills/path'
+        'font': resolve(__dirname, './assets/font')
     },
     css:[
         'assets/css/custom.css',
         'assets/css/main.css',
         "~/assets/css/tailwind.css"
     ],
-    build: {
-      postcss: {
-        postcssOptions: {
-          plugins: {
-            tailwindcss: {},
-            autoprefixer: {},
-          },
-        },
-      },
-    },
     modules:['@nuxtjs/strapi'],
     strapi:{
       url: process.env.STRAPI_URL || 'http://localhost:1337',  

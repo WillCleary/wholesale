@@ -1,6 +1,4 @@
 <script setup>
-import { dataToEsm } from '@rollup/pluginutils';
-
 const { reportGroups } = defineProps({
     "reportGroups": Array
 })

@@ -1,7 +1,7 @@
 <script setup>
 import moment from 'moment';
 
-const { findOne, find } = useStrapi();
+const { findOne } = useStrapi();
 const {
     data:
     { attributes:
