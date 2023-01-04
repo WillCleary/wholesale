@@ -1,12 +1,12 @@
 {
   "private": true,
   "scripts": {
-    "build": "node ./node_modules/nuxt/bin/nuxt.mjs build -c ./nuxt.config.js",
-    "dev": "node ./node_modules/nuxt/bin/nuxt.mjs dev -c ./nuxt.config.js",
-    "start": "node ./node_modules/nuxt/bin/nuxt.mjs start -c ./nuxt.config.js",
-    "generate": "node ./node_modules/nuxt/bin/nuxt.mjs generate -c ./nuxt.config.js",
-    "preview": "node ./node_modules/nuxt/bin/nuxt.mjs preview -c ./nuxt.config.js",
-    "postinstall": "node ./node_modules/nuxt/bin/nuxt.mjs prepare -c ./nuxt.config.js"
+    "build": "node node_modules/nuxt/bin/nuxt.mjs build -c ./nuxt.config.js",
+    "dev": "node node_modules/nuxt/bin/nuxt.mjs dev -c ./nuxt.config.js",
+    "start": "node node_modules/nuxt/bin/nuxt.mjs start -c ./nuxt.config.js",
+    "generate": "node node_modules/nuxt/bin/nuxt.mjs generate -c ./nuxt.config.js",
+    "preview": "node node_modules/nuxt/bin/nuxt.mjs preview -c ./nuxt.config.js",
+    "postinstall": "node node_modules/nuxt/bin/nuxt.mjs prepare -c ./nuxt.config.js"
   },
   "devDependencies": {
     "@nuxt/postcss8": "^1.1.3",
