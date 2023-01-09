@@ -2,16 +2,7 @@
 import moment from 'moment';
 
 const { findOne } = useStrapi();
-const {
-    data:
-    { attributes:
-        { header, report_date, report_groups:
-            {
-                data: reportGroups
-            }
-        }
-    }
-} = await findOne('report-tables', '1', {
+const { data: { value: { data: { attributes: { header, report_date, report_groups: { data: reportGroups } } } } } } = await useAsyncData("table", () => findOne('report-tables', '1', {
     populate: {
         report_groups: {
             populate: {
@@ -24,9 +15,9 @@ const {
             }
         }
     }
-});
+}));
 
-const reportDisplayDate = moment(report_date).format('dddd, MM/DD/YYYY')
+const reportDisplayDate = moment(report_date).format('dddd, MM/DD/YYYY');
 </script>
 
 <template>

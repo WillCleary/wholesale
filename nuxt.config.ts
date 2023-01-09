@@ -10,12 +10,11 @@ export default defineNuxtConfig({
     css:[
         'assets/css/custom.css',
         'assets/css/main.css',
-        "~/assets/css/tailwind.css"
+        "assets/css/tailwind.css"
     ],
     modules:['@nuxtjs/strapi'],
     strapi:{
-      url: process.env.STRAPI_URL || 'http://localhost:1337',  
-      prefix: '/api',  
+      url: process.env.STRAPI_URL || 'http://localhost:1337',
       version: 'v4',  
       cookie: {},  
       cookieName: 'strapi_jwt'
