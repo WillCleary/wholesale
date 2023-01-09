@@ -2,7 +2,18 @@
 import moment from 'moment';
 
 const { findOne } = useStrapi();
-const { data: { value: { data: { attributes: { header, report_date, report_groups: { data: reportGroups } } } } } } = await useAsyncData("table", () => findOne('report-tables', '1', {
+const {
+    data: {
+        value: {
+            data: {
+                attributes: {
+                    header, report_date, report_groups:
+                    { data: reportGroups }
+                }
+            }
+        }
+    }
+} = await useAsyncData("table", () => findOne('report-tables', '1', {
     populate: {
         report_groups: {
             populate: {
