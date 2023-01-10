@@ -8,11 +8,11 @@ export default defineNuxtConfig({
         'font': resolve(__dirname, './assets/font')
     },
     css:[
-        'assets/css/custom.css',
-        'assets/css/main.css',
-        "assets/css/tailwind.css"
+        '~/assets/css/custom.css',
+        '~/assets/css/main.css',
+        "~/assets/css/tailwind.css"
     ],
-    modules:['@nuxtjs/strapi'],
+    modules:['@nuxtjs/strapi', '@nuxtjs/tailwindcss'],
     strapi:{
       url: process.env.STRAPI_URL || 'http://localhost:1337',
       version: 'v4',  
